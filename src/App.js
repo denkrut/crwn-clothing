@@ -55,7 +55,6 @@ class App extends React.Component {
             <Route
               exact
               path="/signin"
-              // element={<SignInAndSignUpPage />}
               element={
                 this.props.currentUser ? (
                   <Navigate to="/" />
